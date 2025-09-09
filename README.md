@@ -1,6 +1,6 @@
 # Lost and Found Application
 
-A RESTful API for a Lost and Found system for an educational institute, developed for CMJD Batch 108/109 Assignment 1 using Spring Boot, Spring Data JPA, Spring Security, and MySQL with JWT authentication.
+A RESTful API for a Lost and Found system for an educational institute, using Spring Boot, Spring Data JPA, Spring Security, and MySQL with JWT authentication.
 
 ## Tech Stack
 - Spring Boot 3.2.0
