@@ -16,24 +16,6 @@ A RESTful API for a Lost and Found system for an educational institute, develope
    git clone https://github.com/yourusername/lostandfound.git
    cd lostandfound
    ```
-3. **Configure MySQL**:
-   ```sql
-   CREATE DATABASE lost_and_found;
-   ```
-   Update `src/main/resources/application.properties`:
-   ```properties
-   spring.datasource.url=jdbc:mysql://localhost:3306/lost_and_found?useSSL=false&serverTimezone=UTC
-   spring.datasource.username=root
-   spring.datasource.password=yourpassword
-   spring.jpa.hibernate.ddl-auto=update
-   jwt.secret=your_super_secret_key_32_chars_long
-   jwt.expiration=86400000
-   ```
-4. **Run**:
-   ```bash
-   mvn clean install
-   mvn spring-boot:run
-   ```
 
 ## API Endpoints
 - **Auth**:
